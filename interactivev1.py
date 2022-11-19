@@ -23,7 +23,7 @@ poutine_pic = Image.open('poutine_pic.jpg')
 st.image(poutine_pic, caption='Poutine', width=700)
 
 #Import data
-recipes = pd.read_csv('recipenlg.csv')
+recipes = pd.read_csv('https://raw.githubusercontent.com/mcverhulst/poutine/main/recipenlg.csv')
 derp = recipes.iloc[0]['ingredients']
 
 def clean_ingred(x):
@@ -241,7 +241,7 @@ iconic_viz
 
 ### map
 can = gpd.read_file('https://raw.githubusercontent.com/codeforgermany/click_that_hood/main/public/data/canada.geojson')
-states = gpd.read_file('us_map2.json')
+states = gpd.read_file('https://raw.githubusercontent.com/mcverhulst/poutine/main/us_map2.json')
 can = can[['name', 'geometry']]
 
 states = states[['NAME', 'geometry']]
@@ -329,7 +329,7 @@ Knoxville, Manchester,
 NH, and Rhode Island.''')
 
 ### restaurants
-rests = pd.read_csv('laPoutine rest.csv')
+rests = pd.read_csv('https://raw.githubusercontent.com/mcverhulst/poutine/main/laPoutine%20rest.csv')
 missing = {'year': [2015, 2018, 2020], 'count': [120, 240, 400]}
 missing= pd.DataFrame(data=missing)
 
