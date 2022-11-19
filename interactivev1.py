@@ -24,7 +24,7 @@ st.image(poutine_pic, caption='Poutine', width=700)
 
 #Import data
 recipes = pd.read_csv('https://raw.githubusercontent.com/mcverhulst/poutine/main/recipenlg.csv')
-derp = recipes.iloc[0]['ingredients']
+# derp = recipes.iloc[0]['ingredients']
 
 def clean_ingred(x):
     for i in range(len(x)):
