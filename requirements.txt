@@ -136,13 +136,13 @@ tzdata==2022.2
 tzlocal==4.2
 urllib3
 validators==0.20.0
-vega-datasets @ file:///home/conda/feedstock_root/build_artifacts/vega_datasets_1606414058616/work
+vega-datasets
 watchdog==2.1.9
-wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
+wcwidth
 webencodings==0.5.1
-websocket-client @ file:///C:/ci_310/websocket-client_1642093970919/work
-widgetsnbextension @ file:///C:/ci/widgetsnbextension_1645009839917/work
-win-inet-pton @ file:///C:/ci_310/win_inet_pton_1642658466512/work
+websocket-client
+widgetsnbextension
+win-inet-pton
 wincertstore==0.2
 wsproto==1.2.0
 zipp==3.8.1
