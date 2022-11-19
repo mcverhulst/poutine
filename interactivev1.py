@@ -414,4 +414,8 @@ st.write('\n')
 st.write('\n')
 st.write('\n')
 st.write('\n')
+<<<<<<< HEAD
 st.write('''Source: https://en.wikipedia.org/wiki/Poutine''')
+=======
+st.write('''Source: https://en.wikipedia.org/wiki/Poutine''')
+>>>>>>> b545f79ab8831f7992aa6d91923b57a2ee08acdb
